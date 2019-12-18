@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-            Scott Kim - About
+		Solar Website!
         </title>
         <link href="https://fonts.googleapis.com/css?family=Cousine|Lato|Montserrat:600|Anonymous+Pro:700|Oxygen+Mono|Source+Code+Pro&display=swap" rel="stylesheet">
         <link href="styles/styles.css" rel="stylesheet">
@@ -11,24 +11,36 @@
         <span id="self-description">
             <div id="title-name">
                     <h1>
-                        <div>Solar</div>
-                        <div>Website</div>
+                        <div>Solar Website</div>
                     </h1>
                 </span>
             </div>
+	    <br>
+	    <hr>
+	    <br>
+	    <form class="button-holder" action="/send" method="POST">
+		    <input id="led-trigger" type="submit" value="Click to toggle light"/>
+	    </form>
+	    <br>
+	    <hr>
+	    <br>
             <div id="self-intro">
                 <p>
-                Hello, you've found the solar website!
+		You might be seeing this on some computer, but <b><u>you can access it from your phone too!</u></b>
                 </p>
-                <p>
-                There really isn't much going on here, but I can (sort of) prove that this website and the raspberry pi are at least connected.
-                </p>
-                <p>
-                Press this button, and the LED on the raspberry pi should hopefully change!
-                </p>
-                <form class="button-holder" action="/send" method="POST">
-                    <input id="led-trigger" type="submit" value="Click to toggle light"/>
-                </form>
+		<h3>1. Connect to the wifi</h3>
+		<div class="indented">
+		    <p>
+		    <b>Wifi:</b> fablab-watson<br>
+		    <b>Pass:</b> cucfablab
+		    </p>
+		</div>
+		<h3>2. Go to the link!</h3>
+		<div class="indented">
+		    <p>
+		    <b>URL:</b> scottkim.me<br>
+		    </p>
+		</div>
             </div>
         </span>
     </div>

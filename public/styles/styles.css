@@ -59,6 +59,10 @@ body {
     flex-direction: row;
 }
 
+.indented {
+	margin-left: 4em;
+}
+
 #title-name div {
     line-height: 95%;
 }
@@ -80,7 +84,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2vw;
+    font-size: 1.5em;
     padding: 0.5em 1em;
 
     -webkit-transition-duration: 0.4s; /* Safari */
